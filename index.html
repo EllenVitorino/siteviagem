@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExploreMundo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <div class="overlay"></div>
+    <nav class="topbar container">
+      <a class="logo" href="index.html">
+        <span class="pin">📍</span>
+        <span>Explore<span class="logo-highlight">Mundo</span></span>
+      </a>
+
+      <ul class="menu">
+        <li><a class="active" href="#inicio">Inicio</a></li>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content container">
+      <h1>Descubra Lugares Incríveis!</h1>
+      <p>Explore os melhores destinos ao redor do mundo.</p>
+      <a href="#destinos" class="btn btn-orange btn-large">Saiba Mais</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section-light" id="destinos">
+      <div class="container">
+        <div class="section-title">
+          <span class="line"></span>
+          <h2>Destinos Populares</h2>
+          <span class="line"></span>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Praia tropical com areia clara e mar azul">
+            <div class="card-body">
+              <h3>Praias Paradisíacas</h3>
+              <p>Conheça as mais belas praias</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt="Cordilheira com montanhas nevadas">
+            <div class="card-body">
+              <h3>Montanhas</h3>
+              <p>Aventuras nas alturas</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=900&q=80" alt="Cidade histórica com arquitetura antiga">
+            <div class="card-body">
+              <h3>Cidades Históricas</h3>
+              <p>Explore a cultura e historia</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-button">
+          <a href="destinos.html" class="btn btn-orange">Ver Mais Destinos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-white" id="sobre">
+      <div class="container narrow">
+        <div class="section-title">
+          <span class="line"></span>
+          <h2>Sobre Nós</h2>
+          <span class="line"></span>
+        </div>
+
+        <p class="about-text">Somos apaixonados por viagens e queremos ajudar você a explorar o mundo!</p>
+
+        <div class="center-button">
+          <a href="destinos.html" class="btn btn-orange">Leia Mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-title align-left compact-title">
+            <h2>Fale Conosco</h2>
+            <span class="line"></span>
+          </div>
+
+          <form class="contact-form">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="E-mail">
+            <textarea placeholder="Mensagem"></textarea>
+            <button type="button" class="btn btn-blue">Enviar</button>
+          </form>
+        </div>
+
+        <div>
+          <div class="section-title align-left compact-title">
+            <h2>Onde Estamos</h2>
+            <span class="line"></span>
+          </div>
+
+          <div class="map-box">
+            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1000&q=80" alt="Mapa estilizado com marcador vermelho">
+          </div>
+
+          <div class="contact-info">
+            <p>✉️&nbsp;&nbsp;email: contato@exploremundo.com</p>
+            <p>📞&nbsp;&nbsp;(11) 1234-5678</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 ExploreMundo - Todos os direitos reservados</p>
+    </div>
+  </footer>
+</body>
+</html>
